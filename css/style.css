@@ -74,60 +74,65 @@ padding:0 10px;
 
 
 
+
 .News{
-   text-align: center;
-   padding-top:50px;
-    
+
+  margin:30px;
+   
 }
 
-.News_top{
-    text-align: center;
+.News_ul{
+  text-align: center;
 }
-
 
 .news_list_box{
-
-    border-top: 1px solid #333;
-    border-bottom: 1px solid #333;
-    padding: 10px;
-    
+   
+   border-top: 1px solid #333;
+   border-bottom: 1px solid #333;
+   padding: 10px;
+   
 }
 
 .N_top_item1{
-    padding-top:10px;
-    font-size:30px;
+   padding-top:10px;
+   font-size:30px;
 }
 
 .N_top_item{
-    color:brown;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Yesteryear', cursive;
+   color:brown;
+   font-family: 'Gloria Hallelujah', cursive;
+   font-family: 'Oswald', sans-serif;
+   font-family: 'Yesteryear', cursive;
 }
 
 
 /* 訂正箇所 */
 .news_list_box{
-  list-style:none;
-  display: inline-block;
+ list-style:none;
+ display: inline-block;
 }
 .news_list{
-    line-height: 30px;
-    border-bottom:solid
-  #2724241e 1px; 
-    padding-bottom:5px;
-  }
+   line-height: 30px;
+   border-bottom:solid
+ #2724241e 1px; 
+   padding-bottom:5px;
+ }
 
-   a{
-     background-color: brown;
-     border-radius:50px;
-     color:#fff;
-     margin:0 20px;
-     padding:0px 20px;
-     /* 角丸の大きさ */
-    
-   }
+  a{
+    background-color: brown;
+    border-radius:50px;
+    color:#fff;
+    margin:0 20px;
+    padding:0px 20px;
+    /* 角丸の大きさ */
+    text-decoration: none;
+   
+  }
 /*  */
+/*  */
+    
+
+
 /*  */
 /*  */
 
@@ -298,7 +303,7 @@ padding:0 10px;
 
       /* blog */
 
-      .blog{
+    .blog{
         margin-top:60px;
         background-color: #ccc;
         height: 400px;
@@ -319,7 +324,7 @@ padding:0 10px;
 
       .blog_top{
         padding-top:30px;
-        padding-left:200px;
+        padding-left:27%;
       }
 
       .blog_card{
@@ -386,11 +391,16 @@ padding:0 10px;
 /* company */
 
 .company{
-   text-align: center;
+
 }
-/* 訂正箇所 */
+
+.company-top{
+  text-align: center;
+}
 
 .c_top_item{
+  
+
     font-family: 'Gloria Hallelujah', cursive;
     font-family: 'Oswald', sans-serif;
     font-family: 'Yesteryear', cursive;
@@ -447,6 +457,7 @@ table {
 .c_img{
   position: relative;
   margin: auto;
+  width: 50%;
   
 } 
 
@@ -464,8 +475,7 @@ table {
 
 
 
-/*  */
-/*  */
+
 
 /*  */
 
