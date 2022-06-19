@@ -75,25 +75,21 @@ padding:0 10px;
 
 
 .News{
-    position:relative;
-    top: 30px;
+   text-align: center;
+   padding-top:50px;
     
 }
 
 .News_top{
-    position:absolute;
-    left:30%;
+    text-align: center;
 }
 
 
-.News_list_1{
-    position:absolute;
-    top:100px;
-    left:30%;
+.news_list_box{
+
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
     padding: 10px;
- 
     
 }
 
@@ -140,7 +136,7 @@ padding:0 10px;
 
 .About{
     position:relative;
-    top: 400px;
+    top: 100px;
     background-color: #ccc;
     height: 400px;
 }
@@ -186,7 +182,7 @@ padding:0 10px;
 /* service */
 
 .service{
-   padding-top:500px;
+   padding-top:100px;
    padding-left:100px;
 }
 
@@ -328,9 +324,9 @@ padding:0 10px;
 
       .blog_card{
         display:flex;
-        padding-left: 200px;
+        padding-left: 10px;
         gap: 0px 10%;
-        margin-top:50px;
+        
         justify-content: center;
      
       }
@@ -457,7 +453,7 @@ table {
 
 .c_img_text{
   color:aliceblue;
-  font-size: 80px;
+  font-size: 50px;
   position:absolute;
   margin:100px;
  
