@@ -1,29 +1,26 @@
 .top{
- 
-    position:relative;
-   
-  
+ display: flex;
+ padding-top:50px;
 }
 
 .top_img{ 
     background-color: white;
     width: 150px;
     height: 70px;
-    position:absolute;
-    top:20px;
-    left: 10px;
+    margin-right:auto;
 }
 
 .top_text{
+  
     font-size: 20px;
-    padding-top: 50px;
-    text-align: right;
     list-style: none;
-    
+    display: flex;
 }
-.top li{
-display:inline;
-padding: 5px;
+
+.top_list{
+
+
+padding:0 10px;
 
 }
 
@@ -89,13 +86,14 @@ padding: 5px;
 }
 
 
-.News_list{
+.News_list_1{
     position:absolute;
-    top:80px;
+    top:100px;
     left:30%;
     border-top: 1px solid #333;
     border-bottom: 1px solid #333;
     padding: 10px;
+ 
     
 }
 
@@ -111,35 +109,31 @@ padding: 5px;
     font-family: 'Yesteryear', cursive;
 }
 
-dl{
-    width:500px;
-  
+
+/* 訂正箇所 */
+.news_list_box{
+  list-style:none;
+  display: inline-block;
 }
-/*  横線の長さ*/
+.news_list{
+    line-height: 30px;
+    border-bottom:solid
+  #2724241e 1px; 
+    padding-bottom:5px;
+  }
 
-
-   dt{
-    border-bottom:1px solid #ccc;
-     float:left;
-     padding:10px 5px;
-    
-     
-   }
-   dd{
-    border-bottom:1px solid #ccc;
-     margin-left:100px;
-     padding:10px 5px;
-     text-align: center;
-   }
    a{
      background-color: brown;
-     border-radius:40px;
+     border-radius:50px;
      color:#fff;
      margin:0 20px;
      padding:0px 20px;
      /* 角丸の大きさ */
-     text-decoration:none;
+    
    }
+/*  */
+/*  */
+/*  */
 
 
    /*About  */
@@ -337,7 +331,7 @@ dl{
         padding-left: 200px;
         gap: 0px 10%;
         margin-top:50px;
-        
+        justify-content: center;
      
       }
 
@@ -396,9 +390,9 @@ dl{
 /* company */
 
 .company{
-    padding-top:50px;
-    padding-left:200px;
+   text-align: center;
 }
+/* 訂正箇所 */
 
 .c_top_item{
     font-family: 'Gloria Hallelujah', cursive;
@@ -412,14 +406,13 @@ dl{
     font-size:30px;
 }
 
-.company_t{
-    padding-top:30px;
-    padding-left:200px;
-}
+
 
 table {
     width: 700px;
     border-collapse: collapse;
+     margin:auto;
+     /* 訂正箇所 */
 }
   table th,
   table td {
@@ -445,23 +438,38 @@ table {
 .content{
     padding-top:60px;
     display:flex;
+ 
+    
 }
+
+
+/*  */
+/*  */
+/*  */
+
 
 .c_img{
-    position: relative;
-    height:200px;
-    width:45%;
-    
+  position: relative;
+  margin: auto;
+  
 } 
+
+
 .c_img_text{
-    color:aliceblue;
-    font-size: 50px;
-    position: absolute;
-    top:70px;
-    left:100px;
+  color:aliceblue;
+  font-size: 80px;
+  position:absolute;
+  margin:100px;
+ 
 }
 
 
+
+
+
+
+/*  */
+/*  */
 
 /*  */
 
