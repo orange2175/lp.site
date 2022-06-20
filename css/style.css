@@ -120,7 +120,7 @@
     padding-bottom:5px;
   }
  
-   a{
+   .list_item{
      background-color: brown;
      border-radius:50px;
      color:#fff;
@@ -456,109 +456,165 @@
      width:100px;
    }
  
-   /* content */
+  /*  */
+
+
+
+    /* content */
  .content{
-     padding-top:60px;
-     display:flex;
-  
-     
- }
- 
- 
- /*  */
- /*  */
- /*  */
- 
- 
- 
- 
+  padding-top:60px;
+  display:flex;
 
-  #recruit {
-    margin-top: 80px;
-  }
   
-  .recruit__item {
-    height: 300px;
-    position: relative;
-    width: 50%;
-    
-    transition: 0.4s;
-  }
-  
-  .recruit__item:hover {
-    filter: grayscale(1);
-    transition: 0.4s;
-  }
-  
-  .recruit__item--first {
-    background: url(../img/recruit.png) no-repeat;
-    background-size: cover;
-    height: 400px;
-    width;50%;
-  
-  .recruit__item--second {
-    background: url(../img/interview.png) no-repeat;
-    background-size: cover;
-  }
-  
-  .recruit__item-ttl {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-size: 30px;
-  }
+}
 
- 
- 
- 
- 
- 
- /*  */
- 
- .estra{
-     padding-top:200px;
-     text-align: center;
- }
- 
- .v_line_fix {
-     width: 3px;
-     height: 50px;
-     background-color: brown;
-     margin-left: 50%;
-     margin-top:30px;
-   }
- 
- /*  */
- .e_mail{
-     display:inline-block;
-     text-align: center;
- }
- 
- .practice__btn {
-     font-size:30px;
-     width: 350px;
-     height: 30px;
-     padding: 40px 0;
-     color: #fff;
-     border-radius: 50px;
-     background: brown;
-     text-align: center;
-     box-shadow: 0 10px 0 rgba(31, 6, 6, 0.2);
-     margin:10px auto 0;
-     display:block;
-   }
- 
-   
- /*  */
- .border{
-  margin-top:60px;
-     background-color: #dedede;
-     height:60px;
- 
- }
- .copy{
-     padding-top:30px;
-     text-align: center;
- }
+
+/*  */
+/*  */
+.recruit {
+  margin-top: 80px;
+}
+
+.flex__item{
+  display:flex;
+}
+.recruit__item {
+  height: 800px;
+  position: relative;
+  width: 50%;
+  display: block;
+  transition: 0.4s;
+}
+
+.recruit__item:hover {
+  filter: grayscale(1);
+  transition: 0.4s;
+}
+
+.recruit__item--first {
+  background: url(../img/recruit.png) no-repeat;
+  background-size: cover;
+}
+
+.recruit__item--second {
+  background: url(../img/interview.png) no-repeat;
+  background-size: cover;
+}
+
+.recruit__item-ttl {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 100px;
+}
+
+
+
+
+
+
+/*  */
+
+.estra{
+  padding-top:200px;
+  text-align: center;
+}
+
+.v_line_fix {
+  width: 3px;
+  height: 50px;
+  background-color: brown;
+  margin-left: 50%;
+  margin-top:30px;
+}
+
+/*  */
+.e_mail{
+  display:inline-block;
+  text-align: center;
+}
+
+.practice__btn {
+  font-size:30px;
+  width: 350px;
+  height: 30px;
+  padding: 40px 0;
+  color: #fff;
+  border-radius: 50px;
+  background: brown;
+  text-align: center;
+  box-shadow: 0 10px 0 rgba(31, 6, 6, 0.2);
+  margin:10px auto 0;
+  display:block;
+}
+
+
+/*  */
+.border{
+margin-top:60px;
+  background-color: #dedede;
+  height:60px;
+
+}
+.copy{
+  padding-top:30px;
+  text-align: center;
+}
+© 2022 GitHub, Inc.
+
+
+
+
+
+
+/*  */
+
+.estra{
+  padding-top:200px;
+  text-align: center;
+}
+
+.v_line_fix {
+  width: 3px;
+  height: 50px;
+  background-color: brown;
+  margin-left: 50%;
+  margin-top:30px;
+}
+
+/*  */
+.e_mail{
+  display:inline-block;
+  text-align: center;
+}
+
+.practice__btn {
+  font-size:30px;
+  width: 350px;
+  height: 30px;
+  padding: 40px 0;
+  color: #fff;
+  border-radius: 50px;
+  background: brown;
+  text-align: center;
+  box-shadow: 0 10px 0 rgba(31, 6, 6, 0.2);
+  margin:10px auto 0;
+  display:block;
+}
+
+
+/*  */
+.border{
+margin-top:60px;
+  background-color: #dedede;
+  height:60px;
+
+}
+.copy{
+  padding-top:30px;
+  text-align: center;
+}
+© 2022 GitHub, Inc.
+T
