@@ -470,24 +470,46 @@
  /*  */
  
  
- .c_img{
-   position: relative;
-   margin: auto;
-   width: 50%;
-   
- } 
  
  
- .c_img_text{
-   color:aliceblue;
-   font-size: 50px;
-   position:absolute;
-   margin:100px;
+
+  #recruit {
+    margin-top: 80px;
+  }
   
- }
- 
- 
- 
+  .recruit__item {
+    height: 300px;
+    position: relative;
+    width: 50%;
+    
+    transition: 0.4s;
+  }
+  
+  .recruit__item:hover {
+    filter: grayscale(1);
+    transition: 0.4s;
+  }
+  
+  .recruit__item--first {
+    background: url(../img/recruit.png) no-repeat;
+    background-size: cover;
+    height: 400px;
+    width;50%;
+  
+  .recruit__item--second {
+    background: url(../img/interview.png) no-repeat;
+    background-size: cover;
+  }
+  
+  .recruit__item-ttl {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 30px;
+  }
+
  
  
  
